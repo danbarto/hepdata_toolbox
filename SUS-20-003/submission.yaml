@@ -1,0 +1,123 @@
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+  - {location: "http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-20-003/index.html", description: "web page with auxiliary material"}
+
+comment: | # preserve newlines
+  Search for chargino-neutralino production in events with Higgs and W bosons
+
+  A search for electroweak production of supersymmetric (SUSY) particles in final states with one lepton, a Higgs boson decaying to a pair of bottom quarks, and large missing transverse momentum is presented.
+  The search uses data from proton-proton collisions at a center-of-mass energy of 13 TeV collected using the CMS detector at the LHC, corresponding to an integrated luminosity of 137/fb.
+  The observed yields are consistent with backgrounds expected from the standard model.
+  The results are interpreted in the context of a simplified SUSY model of chargino-neutralino production, with the chargino decaying to a W boson and the lightest SUSY particle (LSP) and the neutralino decaying to a Higgs boson and the LSP.
+  Charginos and neutralinos with masses up to 820 GeV are excluded at 95% confidence level when the LSP mass is small, and LSPs with mass up to 350 GeV are excluded when the masses of the chargino and neutralino are approximately 700 GeV.
+
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 5 (post-fit)"
+location: Data from Page 17
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: SR_table.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 5 (pre-fit)"
+location: Data from Page 17
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: SR_table.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Covariance matrix for Figure 5 (pre-fit)"
+location: Data from Page 17
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: covariance.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (observed limit on cross section)"
+location: Data from Page 17
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: observed_limit.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (Expected upper limit)"
+location: Data from Page 19
+description: 95% CL expected upper limit on chargino/neutralino cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: TChiWHExpectedLimit.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (Expected upper limit, +1 sigma)"
+location: Data from Page 19
+description: 95% CL expected upper limit on chargino/neutralino cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: TChiWHExpectedLimitUp.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (Expected upper limit, -1 sigma)"
+location: Data from Page 19
+description: 95% CL expected upper limit on chargino/neutralino cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: TChiWHExpectedLimitDown.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (Observed upper limit)"
+location: Data from Page 19
+description: 95% CL Observed upper limit on chargino/neutralino cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: TChiWHObservedLimit.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (Observed upper limit, +1 sigma)"
+location: Data from Page 19
+description: 95% CL Observed upper limit on chargino/neutralino cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: TChiWHObservedLimitUp.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Figure 6 (Observed upper limit, -1 sigma)"
+location: Data from Page 19
+description: 95% CL Observed upper limit on chargino/neutralino cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: TChiWHObservedLimitDown.yaml
