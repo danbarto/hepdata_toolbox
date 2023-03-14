@@ -7,7 +7,7 @@ import mplhep as hep
 plt.style.use(hep.style.CMS)
 
 from yaml import load, dump
-from yaml import CLoader as Loader, CDumper as Dumper
+from yaml import Loader, Dumper
 
 template_2D = {
     'independent_variables': [
@@ -113,3 +113,7 @@ if __name__ == '__main__':
     cov_hepdata['independent_variables'][0]['values'] = [ {'value': regions[x][0]} for x in X.flatten() ]
     cov_hepdata['independent_variables'][1]['values'] = [ {'value': regions[x][0]} for x in Y.flatten() ]
     cov_hepdata['dependent_variables'][0]['values'] = [ {'value': round(float(x),2)} for x in cov_matrix.flatten() ]
+
+    f_out = 'covariance.yaml'
+    with open(f_out, 'w') as f:
+        dump(cov_hepdata, f, Dumper=Dumper)
