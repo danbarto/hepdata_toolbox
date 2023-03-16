@@ -32,7 +32,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: observables, values: [SIG]}
   - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [electroweakino, chargino, neutralino]}
-data_file: SR_table.yaml
+data_file: SR_table_prefit.yaml
 ---
 # Start a new YAML document to indicate a new data table.
 name: "Covariance matrix for Figure 5 (pre-fit)"
@@ -121,3 +121,146 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [electroweakino, chargino, neutralino]}
 data_file: TChiWHObservedLimitDown.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (overall)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj2_lowmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj2_lowmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj2_medmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj2_medmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj2_highmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj2_highmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj2_vhighmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj2_vhighmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj2_lowmet_boos)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj2_lowmet_boos.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj2_medmet_boos)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj2_medmet_boos.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj3_lowmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj3_lowmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj3_medmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj3_medmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj3_highmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj3_highmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj3_vhighmet_res)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj3_vhighmet_res.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj3_lowmet_boos)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj3_lowmet_boos.yaml
+---
+# Start a new YAML document to indicate a new data table.
+name: "Efficiency map (SR nj3_medmet_boos)"
+location: Additional data
+description: .
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [P P --> chi chi]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [6500.0]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [electroweakino, chargino, neutralino]}
+data_file: efficiency_nj3_medmet_boos.yaml

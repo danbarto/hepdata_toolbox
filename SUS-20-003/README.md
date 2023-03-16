@@ -18,6 +18,8 @@ Figure 5 produced with this script: [signalRegions.py](https://github.com/danbar
 
 Limit extraction produced with ...
 
+[xsecs](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVn2x1wino)
+
 ## Covariance matrix
 
 Latest cards are in `/home/users/dspitzba/WH/wh_draw/statistics/unblind_dataCRfix_newSF_allSystUpdate/datacards_updated_withSignalSyst`.
